@@ -14,7 +14,7 @@ def print_hi(name):
 
 
 if __name__ == '__main__':
-    print_hi('Karthik and Chandhan and Pradeep')
+    print_hi('Karthik-Chandhan-Pradeep')
 
 
 
