@@ -1,0 +1,11 @@
+Where to find open data
+• Open data portal list from around the world
+• http://datacatalogs.org/
+Governmental, intergovernmental and organization websites
+• http://data.un.org/ (United Nations)
+• https://www.data.gov/(USA)
+https://www.europeandataportal.eu/en/ (Europe)
+• Kaggle
+• https://www.kaggle.com/datasets
+Google data set search
+• https://datasetsearch.research.google.com/
