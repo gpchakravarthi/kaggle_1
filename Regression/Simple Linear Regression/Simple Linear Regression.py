@@ -11,6 +11,7 @@ from sklearn import linear_model
 from scipy import stats
 import pandas as pd
 import matplotlib.pyplot as plt
+import joblib
 
 #List of 30 elements depicting independent variable height
 height=[145,163,152,137,175,131,164,148,186,178,156,179,163,152,131,138,166,189,133,178,161,149,189,176,159,162,174,146,139,153]
@@ -47,6 +48,8 @@ model=linear_model.LinearRegression()
 
 #Fitting the model using fit() function
 model.fit(heightdf,weightdf)
+joblib.dump(model,'/Users/pradeep/OneDrive - Clairvoyant AI, Inc/zip.joblib')
+md = joblib.load('/Users/pradeep/OneDrive - Clairvoyant AI, Inc/zip.joblib')
 print("Adjusted R Squared for the linear regression model: ",model.score(heightdf,weightdf))
 
 #Equation coefficient and intercept
