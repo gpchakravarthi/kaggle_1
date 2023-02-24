@@ -63,3 +63,5 @@ testheight=pd.DataFrame([172,180,176])
 print("Predicted weight for 172cm: ",model.predict(testheight)[0])
 print("Predicted weight for 180cm: ",model.predict(testheight)[1])
 print("Predicted weight for 176cm: ",model.predict(testheight)[2])
+
+
